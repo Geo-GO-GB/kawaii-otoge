@@ -1,5 +1,5 @@
 # The KAWAII☆音ゲー
-5キーのポップな音ゲー（ポップン／ビーマニ風）＋ オリジナル曲8曲
+5キーのポップな音ゲー（ポップン／ビーマニ風）＋ オリジナル曲9曲
 
 公開ページ：https://geo-go-gb.github.io/kawaii-otoge/
 
@@ -7,9 +7,9 @@
 1. ブラウザ（Chrome / Edge 推奨。Firefoxも可）で [公開ページ](https://geo-go-gb.github.io/kawaii-otoge/) をひらく。音・画像・フォントはページから読み込みます（ネット接続が必要です）。
 2. 最初の「♪ CLICK TO START ♪」でクリックかキー（ブラウザの決まりで、ユーザー操作のあとでないと音が出せないためのゲートです）。
 3. **タイトル**（タイトルBGMがループ）→ なにかキーで「**イエーイ!!**」のシャウト → **キャラクター選択**（専用BGM）。右下の **CREDIT** でクレジット画面。
-4. **キャラクター選択**：←→で **ケッティ**（ケット・シー）・**デビボ**（小悪魔ロボボーカリスト）・**ニコチン**（けだるいヘビースモーカー）・**マイティ・タイフーン**（南の島のレジェンドカリプソニアン）・**夏目涼子**（レコード好きの図書館司書）・**メタロット**・**タクロヲ**・**オボーさん**（破戒僧）をえらんで Enter。選んだキャラはgoodポーズで反応します。
+4. **キャラクター選択**：←→で **ケッティ**（ケット・シー）・**デビボ**（小悪魔ロボボーカリスト）・**ニコチン**（けだるいヘビースモーカー）・**マイティ・タイフーン**（南の島のレジェンドカリプソニアン）・**夏目涼子**（レコード好きの図書館司書）・**メタロット**・**タクロヲ**・**オボーさん**（破戒僧）・**ミュズ**（元気なAIアシスタント）をえらんで Enter。選んだキャラはgoodポーズで反応します。
    ライバルはその曲のキャラで固定（その曲のボーカル／担当キャラと同じ。同じキャラを選ぶと右側は2Pカラー（青）のミラー対決になります）。ライバルのモーションはプレイヤーの判定の逆です（good→miss、miss→good、fever中はライバルがmiss）。
-5. **曲選択**：↑↓で8曲を切りかえ（端まで行くとループ）。選んだ曲のサビ／テーマがフェードイン→フェードアウトでくり返し試聴されます。タイトル・ジャンル・BPMと **EASY / NORMAL / HARD**（←→で切りかえ、**Lvとノーツ数つき**）を表示。
+5. **曲選択**：↑↓で9曲を切りかえ（端まで行くとループ）。選んだ曲のサビ／テーマがフェードイン→フェードアウトでくり返し試聴されます。タイトル・ジャンル・BPMと **EASY / NORMAL / HARD**（←→で切りかえ、**Lvとノーツ数つき**）を表示。
    オプション：キー配置（標準：Q W E R T ／ 切りかえ：D F SPACE J K）・ハイスピード・タイミング調整・音量・オートプレイ。Enter か **START!** で開始。
 6. 上から落ちてくるノーツが判定ラインのマーカーに重なったらキーをたたく！
 
@@ -44,6 +44,7 @@ EASY / NORMALで譜面に入っていない音は自動で鳴るので、曲は�
 | にんじんの刑（メタロット、BPM155） | Lv6（126） | Lv12（314） | Lv26（528） |
 | 全宇宙の愛をこめて（タクロヲ、BPM189.92） | Lv7（129） | Lv12（277） | Lv26（484） |
 | Bad Bad Monk（オボーさん、BPM184） | Lv6（61） | Lv14（143） | Lv32（262） |
+| HELLO, MUSE（ミュズ、BPM153.9） | Lv7（146） | Lv17（463） | Lv26（715） |
 
 画面では「Lv 14*」のように * つき。式はデビボ曲と同じものに、同時押しのある譜面では同時押しの項を足したものです。実際に遊んだ感覚で調整していない機械的な目安です。
 
@@ -70,23 +71,24 @@ EASY / NORMALで譜面に入っていない音は自動で鳴るので、曲は�
 - **にんじんの刑** ／ にんじんメタル ／ 155 BPM ／ 約3分 ／ うた：メタロット（Suno）／ ライバル：メタロット ／ 作詞：じょじお
 - **全宇宙の愛をこめて** ／ オタク語り ／ 189.92 BPM ／ 約3分1秒 ／ うた：タクロヲ（Suno）／ ライバル：タクロヲ ／ 作詞：じょじお
 - **Bad Bad Monk** ／ 和風パンク ／ 184 BPM ／ 約1分25秒 ／ うた：オボーさん（Suno）／ ライバル：オボーさん ／ 作詞：じょじお
+- **HELLO, MUSE** ／ サイバーテクノ ／ 153.9 BPM ／ 約3分15秒 ／ うた：ミュズ（Suno）／ ライバル：ミュズ ／ 作詞：じょじお・ChatGPT・Muse
 
 ## ファイル
 - 公開ページ：https://geo-go-gb.github.io/kawaii-otoge/
 - `index.html` … ゲーム本体（分割ビルド。素材は `assets/` から読み込みます）
 - `assets/` … 共通の音、フォント（woff2）、キャラアニメ、曲ごとの伴奏・キー音・試聴（OGG）
-- `licenses/` … フォント（Dela Gothic One / Anton / M PLUS Rounded 1c / Yusei Magic / Mochiy Pop One / Kaisei Opti / Yuji Syuku / Zen Maru Gothic / April Gothic One、いずれも SIL OFL 1.1）と HTS Voice Mei（CC BY 3.0）のライセンス全文
+- `licenses/` … フォント（Dela Gothic One / Anton / M PLUS Rounded 1c / Yusei Magic / Mochiy Pop One / Kaisei Opti / Yuji Syuku / Zen Maru Gothic / April Gothic One / DotGothic16、いずれも SIL OFL 1.1）と HTS Voice Mei（CC BY 3.0）のライセンス全文
 - `.nojekyll` … GitHub Pages 用
 
 ## つかった道具とライセンス
 曲はこのゲームのために新しく作ったもの（一部は Suno による AI 生成）で、既存曲のサンプルや SoundFont は使っていません。
 - **Python + NumPy / SciPy**（BSD）… ドラム・ベース・シンセなどをプログラムで合成（ケッティ／デビボ／ニコチン曲と、タイトルBGM・効果音など）
-- **Suno**（AI楽曲生成）… 「No No No (She Doh Want Meh)」「真夏のハイウェイ」「にんじんの刑」「全宇宙の愛をこめて」「Bad Bad Monk」の作曲・演奏・歌唱
+- **Suno**（AI楽曲生成）… 「No No No (She Doh Want Meh)」「真夏のハイウェイ」「にんじんの刑」「全宇宙の愛をこめて」「Bad Bad Monk」「HELLO, MUSE」の作曲・演奏・歌唱
 - **DiffSinger / Hoshino Hanami ~AI❤dol~** by Lotte V — https://lottev.moe ／ **AI❤dolGAN**（OpenVPI NSF-HiFiGAN, **CC BY-NC-SA 4.0**）… ケッティの歌声
 - **pyopenjtalk-plus**（MIT）/ **Open JTalk**（修正BSD）/ NAIST日本語辞書（BSD系）／ **HTS Voice「Mei」**（© Nagoya Institute of Technology / **CC BY 3.0**）／ **WORLD**（修正BSD / MIT）… デビボの声
 - **librosa / soundfile / mido**、**FFmpeg + libvorbis**、**Playwright + Chrome**、**fontTools**、**Pillow**
-- **Vidu**（AI動画生成）… タイフーン／涼子のアニメーション原画生成
-- **フォント**（いずれも SIL Open Font License 1.1）：**Dela Gothic One** ／ **Anton** ／ **M PLUS Rounded 1c**（タイトルロゴの「音」など）／ **Yusei Magic**（ニコチン）／ **Mochiy Pop One**（マイティ・タイフーン）／ **Kaisei Opti**（夏目涼子）／ **Yuji Syuku**（メタロット）／ **Zen Maru Gothic**（タクロヲ）／ **April Gothic One**（オボーさん）
+- **Vidu**（AI動画生成）… タイフーン／涼子／ミュズのアニメーション原画生成
+- **フォント**（いずれも SIL Open Font License 1.1）：**Dela Gothic One** ／ **Anton** ／ **M PLUS Rounded 1c**（タイトルロゴの「音」など）／ **Yusei Magic**（ニコチン）／ **Mochiy Pop One**（マイティ・タイフーン）／ **Kaisei Opti**（夏目涼子）／ **Yuji Syuku**（メタロット）／ **Zen Maru Gothic**（タクロヲ）／ **April Gothic One**（オボーさん）／ **DotGothic16**（ミュズ）
 - キャラクターのデザインとハンドトゥーン・アニメ … このプロジェクト用に作ったオリジナル
 
 クレジット表記（ゲーム内 CREDIT にも記載）：
