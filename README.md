@@ -67,8 +67,8 @@ EASY / NORMALで譜面に入っていない音は自動で鳴るので、曲は�
 - 25・50・100・150・200・250コンボと FEVER突入でカットイン。
 
 ## 収録曲
-- **ニャンニャン☆マジカル・スターライト!!** ／ マジカル・アイドルポップ ／ 173.5 BPM ／ 約2分24秒 ／ うた：ケッティ（Suno リメイク）／ ライバル：ケッティ
-- **デビボ☆フィーバー・ナイト!!** ／ ハッピー・ユーロビート ／ 173 BPM ／ 約3分0秒 ／ うた：デビボ（Suno リメイク）／ ライバル：デビボ
+- **ニャンニャン☆マジカル・スターライト!!** ／ マジカル・アイドルポップ ／ 173.5 BPM ／ 約2分24秒 ／ うた：ケッティ（Suno 版）／ ライバル：ケッティ ／ 作曲：Grok Bot ／ 編曲：Suno
+- **デビボ☆フィーバー・ナイト!!** ／ ハッピー・ユーロビート ／ 173 BPM ／ 約3分0秒 ／ うた：デビボ（Suno 版）／ ライバル：デビボ ／ 作曲：Grok Bot ／ 編曲：Suno
 - **けむりの輪っか（スモーク・リング）** ／ けだるいジャズ／ローファイ・ジャズホップ ／ 96 BPM（スウィング）／ 約2分5秒 ／ インスト ／ ライバル：ニコチン
 - **No No No (She Doh Want Meh)** ／ ビッグバンド・カリプソ ／ 130.92 BPM ／ 約2分37秒 ／ うた：マイティ・タイフーン（Suno）／ ライバル：マイティ・タイフーン ／ 作詞：Muse
 - **真夏のハイウェイ** ／ シティポップ ／ 133.93 BPM ／ 約3分32秒 ／ うた：夏目涼子（Suno）／ ライバル：夏目涼子 ／ 作詞：じょじお
@@ -91,7 +91,7 @@ EASY / NORMALで譜面に入っていない音は自動で鳴るので、曲は�
 ## つかった道具とライセンス
 曲はこのゲームのために新しく作ったもの（一部は Suno による AI 生成）で、既存曲のサンプルや SoundFont は使っていません。
 - **Python + NumPy / SciPy**（BSD）… ドラム・ベース・シンセなどをプログラムで合成（ニコチン曲、ケッティ／デビボ曲の旧版と、タイトルBGM・効果音など）
-- **Suno**（AI楽曲生成）… 「No No No (She Doh Want Meh)」「真夏のハイウェイ」「にんじんの刑」「全宇宙の愛をこめて」「Bad Bad Monk」「HELLO, MUSE」「このビートで蹴飛ばせ」の作曲・演奏・歌唱、ケッティ曲・デビボ曲のリメイク
+- **Suno**（AI楽曲生成）… 「No No No (She Doh Want Meh)」「真夏のハイウェイ」「にんじんの刑」「全宇宙の愛をこめて」「Bad Bad Monk」「HELLO, MUSE」「このビートで蹴飛ばせ」の作曲・演奏・歌唱、ケッティ曲・デビボ曲（Suno 版）の編曲・演奏・歌唱
 - **DiffSinger / Hoshino Hanami ~AI❤dol~** by Lotte V — https://lottev.moe ／ **AI❤dolGAN**（OpenVPI NSF-HiFiGAN, **CC BY-NC-SA 4.0**）… ケッティ曲旧版の歌声
 - **pyopenjtalk-plus**（MIT）/ **Open JTalk**（修正BSD）/ NAIST日本語辞書（BSD系）／ **HTS Voice「Mei」**（© Nagoya Institute of Technology / **CC BY 3.0**）／ **WORLD**（修正BSD / MIT）… デビボ曲旧版の声
 - **librosa / soundfile / mido**、**FFmpeg + libvorbis**、**Playwright + Chrome**、**fontTools**、**Pillow**
